@@ -1,6 +1,6 @@
 ## Official Implementation of "Let the Pixels Through: Rethinking Long Skip Connections for Scalable Pixel Diffusion"
 
-<div style="width: 100%; max-width: 1000px; margin: 0 auto;">
+<div style="width: 100%; max-width: 838px; margin: 0 auto;">
   <img
     src="assets/PiT.png"
     align="right"
@@ -21,7 +21,6 @@
     The above designs give a simple pixel diffusion transformer architecture.
     When trained from scratch, it scales smoothly from small-scale baselines up to 1.6B parameters, achieving 1.62 and 1.70 FID on ImageNet-256 and -512, respectively.
     Besides, it natively supports multimodal inputs, such as text and images, yielding competitive performance in text-to-image generation.
-
   </p>
   Figure on the right displays our proposed model architecture PiT.
   <br clear="both" />
@@ -29,7 +28,7 @@
 
 <br clear="both" />
 
-<p align="left" style="width: 100%; max-width: 1000px; margin: 0 auto;">
+<p align="left" style="width: 100%; max-width: 838px; margin: 0 auto;">
   <img src="assets/in256.png" width="49%" alt="ImageNet 256 results" />
   <img src="assets/in512.png" width="49%" alt="ImageNet 512 results" />
   Figure 2: Performance on ImageNet-256/512 when scaled from 128M up to 1.6B.
@@ -38,7 +37,7 @@
 
 ## Schedule
 - [x] Release PiT codes and arxiv.
-- [] Open-source codes and weights of T2I model (1.6B) and T2V model (1.6B).
+- [ ] Open-source codes and weights of T2I model (1.6B) and T2V model (1.6B).
 
 ## Quick Setup with Coding Agents
 Dear agents, please refer to instructions in [handover file](./handover.md) to use this code. It includes code structure, environment configuration, data preparation, and evaluation procedure.
