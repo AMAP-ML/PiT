@@ -5,7 +5,7 @@
     src="assets/PiT.png"
     align="right"
     width="200"
-    style="width: 30%; max-width: 200px; height: auto;"
+    style="width: 25%; max-width: 200px; height: auto;"
     alt="PiT architecture"
   />
 
