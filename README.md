@@ -37,7 +37,7 @@
 
 ## Schedule
 - [x] Release PiT codes and arxiv.
-- [ ] Open-source codes and weights of T2I model (1.6B) and T2V model (1.6B).
+- [ ] Open-source codes and weights of T2I/V model.
 
 ## Quick Setup with Coding Agents
 Dear agents, please refer to instructions in [handover file](./handover.md) to use this code. It includes code structure, environment configuration, data preparation, and evaluation procedure.
@@ -143,6 +143,14 @@ python evaluator.py  [path to reference .npz] [path to .npz of generated images]
 
 ## Citation
 ```
-
+@misc{lei2026letpixelsthroughrethinking,
+      title={Let The Pixels Through: Rethinking Long Skip Connections for Scalable Pixel Diffusion}, 
+      author={Jiachen Lei and Jiahong Wu and XiangXiang Chu},
+      year={2026},
+      eprint={2611.32151},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.32151}, 
+}
 ```
 </br>
