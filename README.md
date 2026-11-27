@@ -57,7 +57,7 @@ See [handover.md](./handover.md) for the complete environment details.
 
 ### Dataset Preparation
 
-Download the [ImageNet dataset](https://huggingface.co/datasets/jiachenlei/imagenet) and use the [EPG preprocessing code](https://github.com/AMAP-ML/EPG/tree/master/prepare_dataset) to center-crop and resize images to 256 or 512 pixels. ImageNet-256 training data FID statistics: in256_fid_train.npz, is available [here](https://huggingface.co/jiachenlei/EPG/blob/main/).
+Download the [ImageNet dataset](https://huggingface.co/datasets/jiachenlei/imagenet) and use the [EPG preprocessing code](https://github.com/AMAP-ML/EPG/tree/master/prepare_dataset) to center-crop and resize images to 256 or 512 pixels. ImageNet-256 training FID statistics: [`in256_fid_train.npz`](https://huggingface.co/jiachenlei/EPG/blob/main/in256_fid_train.npz).
 
 Organize the processed files as follows:
 
@@ -71,7 +71,7 @@ ImageNet256/
 └── in256_fid_train.npz
 ```
 
-Keep the class name as the filename prefix before `_`; the loader uses it to derive labels. Use matching images and FID statistics for ImageNet-512. ImageNet-512 training data FID statistics: in256_fid_train.npz, is available [here](https://huggingface.co/jiachenlei/EPG/blob/main/).
+Keep the class name as the filename prefix before `_`; the loader uses it to derive labels. Use matching images and FID statistics for ImageNet-512. ImageNet-512 training FID statistics: [`in512_fid_train.npz`](https://huggingface.co/jiachenlei/EPG/blob/main/in512_fid_train.npz).
 
 ### Training
 
